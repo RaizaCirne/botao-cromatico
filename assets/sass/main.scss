@@ -1,14 +1,20 @@
+@import 'mixins';
+
 * {
+  @include border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
+$cor-fonte-primaria: #2b2823;;
+$cor-fonte-secundaria: #d4ceaa ;
+$cor-fonte-terciaria: #fff;
+
 body {
-  background-color: #2b2823;
+  background-color: $cor-fonte-primaria;
   > main {
     > h1 {
-      color: #fff;
+      color: $cor-fonte-terciaria;
       font-family: "Rubik Scribble", system-ui, sans-serif;
       font-size: 4rem;
       font-style: bold;
@@ -16,29 +22,42 @@ body {
       padding: 5rem;
       text-align: center;
       text-transform: uppercase;
+      @include d(m) {
+        font-size: 2.5rem;
+      }
     }
 
     div {
+      width: 100%;
+      text-align: center;
       // centralizando div
       left: 50%;
       position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
       h2 {
-        background-color: #d4ceaa;
+        margin: 0 auto;
+        width: 20%;
+        background-color: $cor-fonte-secundaria;
         border-radius: .3rem;
-        color: #2b2823;
+        color: $cor-fonte-primaria;
         font-family: "Roboto", sans-serif;
         font-size: 1.5rem;
         font-style: normal;
         font-weight: bold;
         margin-bottom: 2rem;
-        padding: 1.5rem ;
+        padding: 1.5rem;
         text-align: center;
         text-transform: uppercase;
+        @include d(m) {
+          width: 70%;
+        }
       }
 
       #btn {
+        margin: 0 auto;
+        justify-content: center;
+        width: 20%;
         background-color: transparent;
         border-radius: .5rem;
         border: 1px solid #f9fadc;
@@ -48,6 +67,12 @@ body {
         padding: .8rem 4rem;
         text-transform: uppercase;
         // opacity: 0.4;
+        @include d(m) {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        }
       }
       #btn:hover {
         font-weight: bold;
