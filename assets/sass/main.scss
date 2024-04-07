@@ -23,6 +23,10 @@ body {
       text-align: center;
       text-transform: uppercase;
       @include d(m) {
+        font-size: 2rem;
+      }
+
+      @include d(t) {
         font-size: 2.5rem;
       }
     }
@@ -52,6 +56,9 @@ body {
         @include d(m) {
           width: 70%;
         }
+        @include d(t) {
+          width: 40%;
+        }
       }
 
       #btn {
@@ -64,14 +71,15 @@ body {
         color: #f9fadc;
         font-family: "Roboto", sans-serif;
         font-size: 1rem;
+        font-weight: bold;
         padding: .8rem 4rem;
         text-transform: uppercase;
         // opacity: 0.4;
         @include d(m) {
         width: 70%;
-        text-align: center;
-        margin: 0 auto;
-        justify-content: center;
+        }
+        @include d(t) {
+          width: 40%;
         }
       }
       #btn:hover {
