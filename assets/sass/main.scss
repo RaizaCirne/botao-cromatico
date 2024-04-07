@@ -5,44 +5,53 @@
 }
 
 body {
-  background-color: pink;
+  background-color: #2b2823;
   > main {
     > h1 {
-      color: #000;
-      text-align: center;
+      color: #fff;
+      font-family: "Rubik Scribble", system-ui, sans-serif;
+      font-size: 4rem;
+      font-style: bold;
+      font-weight: 400;
       padding: 5rem;
-      font-size: 3rem;
+      text-align: center;
+      text-transform: uppercase;
     }
 
     div {
       // centralizando div
+      left: 50%;
       position: absolute;
       top: 50%;
-      left: 50%;
       transform: translate(-50%, -50%);
       h2 {
-        background-color: #000;
-        color: #fff;
-        text-align: center;
-        font-size: 2.2rem;
+        background-color: #d4ceaa;
+        border-radius: .3rem;
+        color: #2b2823;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: bold;
         margin-bottom: 2rem;
-        padding: .5rem 1rem ;
+        padding: 1.5rem ;
+        text-align: center;
+        text-transform: uppercase;
       }
 
       #btn {
         background-color: transparent;
         border-radius: .5rem;
-        border: 1px solid #000;
-        color: #000;
+        border: 1px solid #f9fadc;
+        color: #f9fadc;
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
         padding: .8rem 4rem;
-        font-size: 1.5rem;
         text-transform: uppercase;
         // opacity: 0.4;
-        font-size: 1rem;
       }
       #btn:hover {
-        opacity: 0.6;
         font-weight: bold;
+        opacity: 0.6;
       }
     }
   }

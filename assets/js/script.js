@@ -1,9 +1,10 @@
-const cores = ['Blue', 'Green', 'Purple', 'White', 'Red', 'Yellow']; 
+const cores = ['Blue', 'Green', 'Purple', 'Red', 'Orange']; 
 const btn = document.getElementById('btn');
 
 btn.addEventListener('click', () => {
   const randomica = corRandomica();
   document.body.style.background = cores[randomica];
+  document.querySelector('.color').innerHTML = cores[randomica];
 });
 
 function corRandomica() {
