@@ -9,4 +9,4 @@ btn.addEventListener('click', () => {
 
 function corRandomica() {
   return Math.floor(Math.random() * cores.length);
-}
+};
