@@ -19,20 +19,18 @@
 
 ## 🚀 Proposta <a name="id02"></a>
 
-Este projeto consiste em uma aplicação onde o usuário pode clicar em um botão para alterar dinamicamente a cor de fundo da página, além de exibir o nome da cor escolhida. O objetivo principal é demonstrar o uso básico de HTML, CSS e JavaScript para criar uma interação visualmente atraente e responsiva.
-
 A proposta deste projeto é oferecer uma experiência interativa ao usuário, permitindo que ele experimente diferentes cores de fundo com apenas um clique. Além disso, o projeto visa demonstrar como utilizar JavaScript para manipular elementos HTML e CSS dinamicamente, proporcionando uma interação fluída e responsiva.
 <br />
 
 ## :trophy: Desafio <a name="#id03"></a>
 
-O desafio principal deste projeto foi integrar corretamente as tecnologias HTML, CSS e JavaScript para criar uma aplicação funcional e esteticamente agradável. Isso incluiu a definição e estilização dos elementos HTML, a implementação da lógica de mudança de cor no JavaScript e a garantia de que a aplicação seja responsiva em diferentes dispositivos. 
+O desafio principal deste projeto foi integrar corretamente as tecnologias HTML, CSS e JavaScript para criar uma aplicação funcional e esteticamente agradável. Isso incluiu a definição e estilização dos elementos HTML, a implementação da lógica de mudança de cor no JavaScript e a garantia de que a aplicação seja responsiva em diferentes dispositivos.
 
 ## :trophy: Aprendizado <a name="#id04"></a>
 
 #### Construído com:
 
-- Integração de Tecnologias:  HTML, CSS e JavaScript para criar uma aplicação web interativa.
+- Integração de Tecnologias: HTML, CSS e JavaScript para criar uma aplicação web interativa.
 
 - Manipulação de Estilos com JavaScript: Manipulação de estilos CSS dinamicamente usando JavaScript para criar uma experiência de usuário mais envolvente.
 
@@ -75,7 +73,8 @@ https://github.com/RaizaCirne/calculadora-de-gorjeta/assets/109912543/31989f0b-c
 - JavaScript
 - Git
 - CSS (com SASS)
-- CSS3
+- Mixins
+- Variáveis CSS
 - HTML5
 
 <br />
