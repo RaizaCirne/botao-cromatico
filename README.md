@@ -46,7 +46,7 @@ O desafio principal deste projeto foi integrar corretamente as tecnologias HTML,
 
 ## :video_camera: Video
 
-arrastar video aqui
+https://github.com/RaizaCirne/botao-cromatico/assets/109912543/d0ff04f1-b3d7-4f8f-a707-f7c70a30591a
 
 ## :desktop_computer: Desktop design
 
