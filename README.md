@@ -46,15 +46,15 @@ O desafio principal deste projeto foi integrar corretamente as tecnologias HTML,
 
 ## :video_camera: Video
 
-https://github.com/RaizaCirne/calculadora-de-gorjeta/assets/109912543/31989f0b-c4a8-438f-84d7-9d7b1bab07b6
+arrastar video aqui
 
 ## :desktop_computer: Desktop design
 
-![Design preview desktop](./assets/images/desktop.png)
+![Design preview desktop](./assets/images/desktop.jpg)
 
 ## :iphone: Mobile design
 
-![Design preview desktop](./assets/images/mobile.png)
+![Design preview desktop](./assets/images/mobile.jpg)
 
 <br />
 
@@ -62,7 +62,7 @@ https://github.com/RaizaCirne/calculadora-de-gorjeta/assets/109912543/31989f0b-c
 
 <br />
 
-- Para acessar o site [Clique aqui](#)
+- Para acessar o site [Clique aqui](https://66144005db94c2194113240a--timely-kleicha-fbb8ff.netlify.app/)
 
 <br />
 
@@ -110,7 +110,7 @@ Abrir pasta no editor de código.
 
 <br />
 
-- Personal Page - [Raíza Cirne Braz](#)
+- Personal Page - [Raíza Cirne Braz](https://66144005db94c2194113240a--timely-kleicha-fbb8ff.netlify.app/)
 - Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
 - GitHub - [RaizaCirne](https://github.com/RaizaCirne)
 - LinkedIn - [Raíza Cirne Braz](https://www.linkedin.com/in/ra%C3%ADzacirne/)
